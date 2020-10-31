@@ -11,5 +11,5 @@ problem attracting tremendous research effort.<br /><br /> Most existing
 methods of fake news detection are supervised, which require
 an extensive amount of time and labor to build a reliably annotated
 dataset.<br />
-Here there is an implementation of an unsupervised fake news prediction algorithm which does not require a classified dataset.
-<b>btevfscd</b>
+Here there is an implementation of an unsupervised fake news prediction algorithm which does not require a classified dataset.<br />
+<b>Along with implementing the paper we have also suggested and implemented an improvement which increases the performance of the algorithm by around 8-10% depending on the dataset</b>
