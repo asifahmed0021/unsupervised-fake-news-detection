@@ -69,3 +69,10 @@ In the current algorithm, credebility of each particular verified user is not ta
 <p align="center">
   <img src="./image_data/acc_compare.png" />
 </p>
+
+<div align="center"><b>Accuracy Table</b></div><br/>
+
+<p align="center">
+  <img src="./image_data/acc_table.png" />
+</p>
+
