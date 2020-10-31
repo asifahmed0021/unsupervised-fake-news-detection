@@ -21,20 +21,27 @@ For each given news i 2 N, we collect all the
 verified users’ tweets on this news. Let Mi  M denote
 the set of verified users who published tweets for the news.
 Then, for the tweet of each verified user j 2 Mi, we collect
-the unverified users’ social engagements. Let Ki;j  K
+the unverified users’ social engagements. Let Ki,j  K
 denote the set of unverified users who engaged in the tweet.
 For each given news i, we use a latent random variable
-xi 2 f0; 1g to denote its truth, i.e., fake news (xi = 0) or
+xi 2 {0,1} to denote its truth, i.e., fake news (xi = 0) or
 true news (xi = 1). To infer whether a news piece is fake or
 not, we need to extract the users’ opinions on the news from
 their engagement behaviors.
-For each verified user j 2Mi, we let yi;j 2 f0; 1g denote
-the user’s opinion on the news, i.e., yi;j is 1 if the user thinks
-the news is real; and 0 otherwise. Several heuristics can be
-applied to extract yi;j . Let Newsi and Tweeti;j denote the
+For each verified user j 2Mi, we let yi,j 2 {0,1} denote
+the user’s opinion on the news, i.e., yi,j is 1 if the user thinks
+the news is real; and 0 otherwise.Let Newsi and Tweeti,j denote the
 news content and the user j’s own text content of the tweet,
-respectively. Then, yi;j can be defined as the sentiment of
-Tweeti;j (Gilbert 2014), or if the opinion of Tweeti;j is nonconflicting
-to that of Newsi (Dave, Lawrence, and Pennock
-2003; Trabelsi and Zaiane 2014).
-For verified user j’s tweet on
+respectively. Then, yi,j can be defined as the sentiment of
+Tweeti,j , or if the opinion of Tweeti,j is nonconflicting
+to that of Newsi 
+For verified user j’s tweet on news i, many unverified
+users may like, retweet, or reply to the tweet. Let zi,j,k 2
+{0,1} denote the opinion of the unverified user k 2 Ki,j .We
+assume that if the user k liked or retweeted3 the tweet, then
+it implies that k agreed to the opinion of the tweet. If the user
+k replied to the tweet, then its opinion can be extracted by
+sentiment analysis. It is common that
+an unverified user may conduct multiple engagements in a
+tweet (e.g., liked and also replied to the tweet). In this case,
+the user’s opinion zi,j,k is obtained using majority voting.
