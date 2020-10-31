@@ -136,9 +136,9 @@ def gibbs_sampling(alpha,beta,gamma,iter_num,burnin,thin,optimised,actual,mCred=
 alpha={(0,0):7,(0,1):3,(1,1):7,(1,0):3}
 gamma={0:5,1:5}
 beta={(0,0,0):9,(0,1,0):9,(1,0,0):9,(1,1,0):9,(0,0,1):1,(0,1,1):1,(1,0,1):1,(1,1,1):1}
-burnin=0
-thin=1
-iter_num=2
+burnin=20
+thin=4
+iter_num=100
 
 #setting axis size for graphs
 axes = plt.gca()
