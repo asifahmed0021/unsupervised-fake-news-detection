@@ -64,7 +64,7 @@ In the current algorithm, credebility of each particular verified user is not ta
 
 
 ## Results and comparision
-<div align="center"><b>Comparing the accuracy of proposed algorithm and improvised algorithm</b></div>
+<div align="center"><b>Comparing the accuracy of proposed algorithm and improvised algorithm</b></div><br/>
 
 <p align="center">
   <img src="./image_data/acc_compare.png" />
