@@ -16,8 +16,6 @@ Here there is an implementation of an unsupervised fake news prediction algorith
 
 ## Model description
 
-![Alt text](./image_data/model_image.png?raw=true "Title")
-
 <p align="center">
   <img src="./image_data/model_image.png" />
 </p>
@@ -55,3 +53,11 @@ sentiment analysis. It is common that
 an unverified user may conduct multiple engagements in a
 tweet (e.g., liked and also replied to the tweet). In this case,
 the user’s opinion zi,j,k is obtained using majority voting.
+
+## Improvement in algorithm
+### First Improvement:
+In the proposed algorithm the values of alpha which represents the distribution of verified users opinion are considered constant.<br />
+In our improvised algorithm alpha changes with every iteration adjusting itself according to the verified user's true positive rate, by which we achieve the fact that alpha adjusts itself according to the verified user's credibility.
+
+### Second Improvement
+In the current algorithm, credebility of each particular verified user is not taken in use. The fact that each verified user is going to have a different credibility helps us in improving the calculation of counting the prediction by verified users on  a weighted basis. A user with a high credibility will now state a fact with a higher weight than a user with lower credibility.
