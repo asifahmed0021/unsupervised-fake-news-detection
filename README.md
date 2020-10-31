@@ -15,7 +15,7 @@ Here there is an implementation of an unsupervised fake news prediction algorith
 <b>Along with implementing the paper we have also suggested and implemented an improvement which increases the performance of the algorithm by around 8-10% depending on the dataset</b><br />
 
 ## Model description
-# News predicion
+### News predicion
 Suppose the set of news is denoted by N, and the sets of
 verified and unverified users are denoted by M and K, respectively.
 For each given news i 2 N, we collect all the
@@ -29,7 +29,7 @@ xi 2 {0,1} to denote its truth, i.e., fake news (xi = 0) or
 true news (xi = 1). To infer whether a news piece is fake or
 not, we need to extract the users’ opinions on the news from
 their engagement behaviors.
-# Verified user's opinion
+### Verified user's opinion
 For each verified user j 2Mi, we let yi,j 2 {0,1} denote
 the user’s opinion on the news, i.e., yi,j is 1 if the user thinks
 the news is real; and 0 otherwise.Let Newsi and Tweeti,j denote the
@@ -37,7 +37,7 @@ news content and the user j’s own text content of the tweet,
 respectively. Then, yi,j can be defined as the sentiment of
 Tweeti,j , or if the opinion of Tweeti,j is nonconflicting
 to that of Newsi 
-# Unverified user's opinion
+### Unverified user's opinion
 For verified user j’s tweet on news i, many unverified
 users may like, retweet, or reply to the tweet. Let zi,j,k 2
 {0,1} denote the opinion of the unverified user k 2 Ki,j .We
