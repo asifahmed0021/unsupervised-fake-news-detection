@@ -61,3 +61,11 @@ In our improvised algorithm alpha changes with every iteration adjusting itself 
 
 ### Second Improvement
 In the current algorithm, credebility of each particular verified user is not taken in use. The fact that each verified user is going to have a different credibility helps us in improving the calculation of counting the prediction by verified users on  a weighted basis. A user with a high credibility will now state a fact with a higher weight than a user with lower credibility.
+
+
+## Results and comparision
+<b>Comparing the accuracy of proposed algorithm and improvised algorithm</b>
+
+<p align="center">
+  <img src="./image_data/acc_compare.png" />
+</p>
