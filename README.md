@@ -18,6 +18,10 @@ Here there is an implementation of an unsupervised fake news prediction algorith
 
 ![Alt text](./image_data/model_image.png?raw=true "Title")
 
+<p align="center">
+  <img src="./image_data/model_image.png" />
+</p>
+
 ### News predicion
 Suppose the set of news is denoted by N, and the sets of
 verified and unverified users are denoted by M and K, respectively.
