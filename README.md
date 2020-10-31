@@ -16,7 +16,7 @@ Here there is an implementation of an unsupervised fake news prediction algorith
 
 ## Model description
 
-![Alt text](images/model_image.png?raw=true "Title")
+![Alt text](./image_data/model_image.png?raw=true "Title")
 
 ### News predicion
 Suppose the set of news is denoted by N, and the sets of
