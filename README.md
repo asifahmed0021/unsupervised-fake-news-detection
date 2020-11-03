@@ -1,5 +1,6 @@
 # Unsupervised Fake news detection
-<b>To Run </b>
+## Run
+In the terminal, go in the project directory and run
 ```
 python main.py
 ```
