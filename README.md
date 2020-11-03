@@ -1,5 +1,8 @@
 # Unsupervised Fake news detection
-
+<b>To Run </b>
+```
+python main.py
+```
 ## Introduction
 Social media has become one of the main channels for people
 to access and consume news, due to the rapidness and low
